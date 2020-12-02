@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#84BF3F</color>
+    <color name="colorPrimaryDark">#BAB63B</color>
+    <color name="colorAccent">#37CABC</color>
+    <color name="facolor">#BAB63B</color>
+    <color name="seller">#1DE9B6</color>
+</resources>

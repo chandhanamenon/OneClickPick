@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="15dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/product_seller_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            android:scaleType="centerCrop"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:id="@+id/product_seller_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:layout_below="@id/product_seller_image"
+
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+        <TextView
+            android:id="@+id/product_seller_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The text in this TextView is not justified. No justification. The text in this TextView is not justified. No justification. The text in this TextView is not justified. No justification."
+            android:justificationMode="inter_word"
+            android:textStyle="italic"
+
+            android:layout_below="@id/product_seller_name"
+            android:textSize="16sp"
+
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+        <TextView
+            android:id="@+id/product_seller_price"
+            android:layout_width="match_parent"
+            android:layout_below="@id/product_seller_description"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_dark"
+            android:text="Product Price"
+            android:textSize="17sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/product_state"
+            android:layout_width="match_parent"
+            android:layout_below="@id/product_seller_price"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="Product Status"
+
+            android:textSize="17sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
